@@ -1,0 +1,2 @@
+model_checkpoint_path: "xo_differ.chkp"
+all_model_checkpoint_paths: "xo_differ.chkp"
