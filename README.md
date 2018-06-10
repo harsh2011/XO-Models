@@ -8,5 +8,8 @@ Code of models trained while creating XO application. CNN model to differ X and 
 ## Training
 ![Image](training.png)
 
+## App Results
+![](AppDemo.gif)
+
 ## Frozen graph 
 in out/opt_xo_differ.pb
