@@ -1,0 +1,2 @@
+model_checkpoint_path: "gan_X.chkp"
+all_model_checkpoint_paths: "gan_X.chkp"
