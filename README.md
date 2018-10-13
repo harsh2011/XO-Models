@@ -13,17 +13,17 @@ Code of models trained while creating XO application. CNN model to differ X and 
 ![](AppDemowithGAN.gif)
 
 ## Frozen graph of CNN
-at out/opt_xo_differ.pb 
-	input_node_name = 'input'
-	keep_prob_node_name = 'keep_prob'
-	output_node_name = 'output'
+at out/opt_xo_differ.pb <br />
+	input_node_name = 'input' <br />
+	keep_prob_node_name = 'keep_prob' <br />
+	output_node_name = 'output' <br />
 
 ## Frozen graph of GAN_O
-at GAN_O/opt_gan_O.pb 
-	input_node_name = 'input'
-	output_node_name = 'output'
+at GAN_O/opt_gan_O.pb <br />
+	input_node_name = 'noise_input_o' <br />
+	output_node_name = 'gen_o' <br />
 
 ## Frozen graph of GAN_X
-at GAN_X/opt_gan_X.pb 
-	input_node_name = 'input'
-	output_node_name = 'output'
+at GAN_X/opt_gan_X.pb <br />
+	input_node_name = 'noise_input_x' <br />
+	output_node_name = 'gen_x' <br />
