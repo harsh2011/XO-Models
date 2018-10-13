@@ -1,11 +1,11 @@
 # XO-Models
-Code of models trained while creating XO application. CNN model to differ X and O in 28 x 28 image.
+Code of models trained while creating XO application. CNN model to differ X and O that are drawn by user in 28 x 28 canvas. GAN use to draw from the computer side
 
 ## Dataset Samples
 ![Image](Dataset/SampleO/0_0_1.png)
 ![Image](Dataset/SampleX/__0_2.png)
 
-## Generate Sample from GAN
+## Generated Samples from GANs
 ![Image](gen_o.PNG)
 ![Image](gen_x.PNG)
 
